@@ -1,0 +1,47 @@
+Prefix to Postfix Results
+
+-------------------------------------------------------------------------------------------
+Input Prefix Expressions:
+
+-+ABC
+-A+BC
+$+-ABC+D-EF
+-*A$B+C-DE*EF
+**A+BC+C-BA
+/A+BC +C*BA  
+*-*-ABC+BA  
+/+/A-BC-BA  
+*$A+BC+C-BA 
+//A+B0-C+BA
+*$A^BC+C-BA					
+						
+				
+					
+					
+	
+
+-------------------------------------------------------------------------------------------
+
+
+
+
+Output Postfix Expressions:
+
+AB+C-
+ABC+-
+AB-C+DEF-+$
+ABCDE-+$*EF*-
+ABC+*CBA-+*
+Invalid prefix expression or invalid characters. Valid operators are +, -, *, /, and $.
+AB-C*BA+-*
+ABC-/BA-+/
+ABC+$CBA-+*
+ABCBA+-+//
+Invalid prefix expression or invalid characters. Valid operators are +, -, *, /, and $.
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------

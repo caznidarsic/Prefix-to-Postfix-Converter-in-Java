@@ -1,0 +1,11 @@
+**A+BC+C-BA
+**A+BC+1C-BA
+*3*A+B54C+1C-9BA76
+123456
+* *A+BC +C-   BA
+   * *A+BC +C-    BA  
+ 	* *A+BC 	+C-    BA 
+
+	  	 
+**A+BC%+C-BA
+*#*A+BC%+C=&-BA

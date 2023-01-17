@@ -1,0 +1,34 @@
+Prefix to Postfix Results
+
+-------------------------------------------------------------------------------------------
+Input Prefix Expressions:
+
+**A+BC+C-BA
+**A+BC+1C-BA
+*3*A+B54C+1C-9BA76
+123456
+* *A+BC +C-   BA
+   * *A+BC +C-    BA  
+ 	* *A+BC 	+C-    BA 
+
+	  	 
+**A+BC%+C-BA
+*#*A+BC%+C=&-BA
+-------------------------------------------------------------------------------------------
+
+
+
+
+Output Postfix Expressions:
+
+ABC+*CBA-+*
+ABC+*CBA-+*
+ABC+*CBA-+*
+Invalid prefix expression or invalid characters. Valid operators are +, -, *, /, and $.
+ABC+*CBA-+*
+ABC+*CBA-+*
+ABC+*CBA-+*
+Invalid prefix expression or invalid characters. Valid operators are +, -, *, /, and $.
+Invalid prefix expression or invalid characters. Valid operators are +, -, *, /, and $.
+ABC+*CBA-+*
+-------------------------------------------------------------------------------------------
